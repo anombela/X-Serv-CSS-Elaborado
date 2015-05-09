@@ -1,0 +1,145 @@
+/*BODY*/
+body {
+	background-color:#1E3846;
+	font-family:"trebuchet ms" , arial, sans-serif;
+	}
+	
+a {
+	color:#1E3846;
+	text-decoration:none;
+	}
+
+a:hover {
+	color:#CCCCCC;
+	}
+
+/*CONTAINERS*/
+#main {
+	width:700px;
+	margin: auto;
+	background-color:#999999;
+	}
+
+#header_text {
+	width:300px;
+	height:50px;
+}
+	
+#header_image {
+	width:700px;
+	height:100px;
+	background-image: url(images/header.jpg);
+	}
+	
+#horizontal_menu {
+	width:695px;
+	height:14px;
+	background-color:#A7A7A7;
+	padding-right:5px;
+	}
+	
+#content{
+	width:548px;
+	float:right;
+	padding:1px;
+	background-color:#999999;
+	}
+
+/*LEFT NAVIGATION*/
+
+#vertical_menu {
+	width:150px;
+	height:100%;
+	float:left;
+	background-color:#A7A7A7;
+	}
+	
+	#vertical_menu ul{
+		display:inline;
+		list-style:none;
+		margin:0px;
+		}
+	#vertical_menu li{
+		margin: 0px 0px 0px 15px;
+		}
+			
+			#vertical_menu a {
+				color:#000000;
+				text-decoration:none;
+				}
+				
+			#vertical_menu a:hover {
+				color:#1E3846;
+				}				
+				
+/*TEXT STYLES*/
+.header_text1 {
+	color:#1E3846;
+	font-size:36px;
+	padding-left:5px;
+	padding-top:5px;
+	}
+
+.header_text2 {
+	color:#CCCCCC;
+	font-size:36px;
+	padding-left:5px;
+	padding-top:5px;
+	}
+	
+.header_text3 {
+	font-size:9px;
+	color:#1E3846;
+	}
+	.header_text3 a{
+	color:#1E3846;
+	text-decoration:none;
+	}
+	.header_text3 a:hover {
+	color:#CCCCCC;
+	}
+	
+.navigation_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	text-align:right;
+	}
+	
+	.navigation_text a  {
+		text-decoration:none;
+		color:#000000;
+		}
+	.navigation_text a:hover {
+		border-bottom: 1px dotted #000000;
+		color:#1E3846;
+		}	
+
+.leftbottomtext {
+	font-size:11px;
+	padding:10px;
+	}
+	
+
+h1 {
+	color:#1E3846;
+	padding-left:5px;
+	margin: 0px;
+	}
+	
+h2 {
+	color:#1E3846;
+	font-size:20px;
+	margin:0px 0px 0px 5px;
+	}
+
+h3 {
+	color:#1E3846;
+	padding-left:50px;
+	margin: 0px;
+	}
+	
+p {
+	padding: 0px 15px 0px 25px;	
+	margin: 0px;
+	text-align:justify;
+	}
